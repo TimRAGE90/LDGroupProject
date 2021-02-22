@@ -1,0 +1,1453 @@
+﻿Log file open, 02/18/21 14:02:49
+LogInit: Display: Running engine for game: FPSGameStarterKit
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.201796
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: Null
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [Null]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.18-19.02.49:519][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.18-19.02.49:520][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:520][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:522][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:522][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.18-19.02.49:523][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.18-19.02.49:524][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.18-19.02.49:524][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.18-19.02.49:524][  0]LogHAL: Display: Platform has ~ 16 GB [17084657664 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.18-19.02.49:524][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.18-19.02.49:524][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.18-19.02.49:524][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Scalability.ini]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.18-19.02.49:525][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.18-19.02.49:526][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.18-19.02.49:526][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.18-19.02.49:526][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.18-19.02.49:526][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Config/Windows/Engine.ini]
+[2021.02.18-19.02.49:526][  0]LogInit: Computer: DESKTOP-IDJN17R
+[2021.02.18-19.02.49:526][  0]LogInit: User: menar
+[2021.02.18-19.02.49:526][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.02.18-19.02.49:526][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.18-19.02.49:526][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.02.18-19.02.49:526][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.18-19.02.49:526][  0]LogMemory: Process Physical Memory: 113.30 MB used, 113.30 MB peak
+[2021.02.18-19.02.49:526][  0]LogMemory: Process Virtual Memory: 96.12 MB used, 96.12 MB peak
+[2021.02.18-19.02.49:526][  0]LogMemory: Physical Memory: 6710.35 MB used,  9582.85 MB free, 16293.20 MB total
+[2021.02.18-19.02.49:526][  0]LogMemory: Virtual Memory: 5143.12 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.02.18-19.02.49:531][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.18-19.02.49:587][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.18-19.02.49:588][  0]LogInit: Using OS detected language (en-US).
+[2021.02.18-19.02.49:588][  0]LogInit: Using OS detected locale (en-US).
+[2021.02.18-19.02.49:592][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.18-19.02.49:839][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.18-19.02.49:877][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.18-19.02.49:877][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.18-19.02.50:107][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.18-19.02.50:107][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.18-19.02.50:107][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.18-19.02.50:107][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.18-19.02.50:189][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2021.02.18-19.02.50:189][  0]LogD3D11RHI:       128/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.02.18-19.02.50:192][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.18-19.02.50:192][  0]LogD3D11RHI:       0/0/8146 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.18-19.02.50:193][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.18-19.02.50:202][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.18-19.02.50:202][  0]LogD3D11RHI:     GPU DeviceId: 0x1912 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.18-19.02.50:202][  0]LogWindows: EnumDisplayDevices:
+[2021.02.18-19.02.50:202][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2021.02.18-19.02.50:203][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.02.18-19.02.50:203][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.02.18-19.02.50:203][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.02.18-19.02.50:203][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 530
+[2021.02.18-19.02.50:203][  0]LogD3D11RHI:   Driver Version: 27.20.100.8854 (internal:27.20.100.8854, unified:27.20.100.8854)
+[2021.02.18-19.02.50:203][  0]LogD3D11RHI:      Driver Date: 10-14-2020
+[2021.02.18-19.02.50:203][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2021.02.18-19.02.50:287][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.02.18-19.02.50:287][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2021.02.18-19.02.50:287][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.18-19.02.50:287][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.18-19.02.50:296][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.02.18-19.02.50:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.18-19.02.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.18-19.02.50:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.18-19.02.50:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.18-19.02.50:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.18-19.02.50:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.18-19.02.50:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.18-19.02.50:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.18-19.02.50:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.18-19.02.50:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.18-19.02.50:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.18-19.02.50:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.18-19.02.50:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.18-19.02.50:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.18-19.02.50:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.18-19.02.50:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.18-19.02.50:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.18-19.02.50:870][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.18-19.02.50:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.18-19.02.50:882][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.18-19.02.50:896][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.18-19.02.50:995][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Intermediate/Shaders/WorkingDirectory/20220/).
+[2021.02.18-19.02.50:995][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/menar/AppData/Local/Temp/UnrealShaderWorkingDir/D7A93BED4E19542F702DBF9AEA049DDA/'.
+[2021.02.18-19.02.50:996][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.18-19.02.50:996][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.18-19.02.50:996][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.18-19.02.51:863][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.18-19.02.51:927][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/menar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.18-19.02.51:928][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/menar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.18-19.02.51:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.18-19.02.51:928][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.18-19.02.51:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.18-19.02.51:928][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.18-19.02.51:939][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.18-19.02.51:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.18-19.02.51:939][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.18-19.02.51:940][  0]LogDerivedDataCache: Using Local data cache path C:/Users/menar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.18-19.02.51:940][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.18-19.02.51:940][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.18-19.02.52:009][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.18-19.02.52:010][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.18-19.02.52:043][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
+[2021.02.18-19.02.52:307][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.18-19.02.52:448][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.18-19.02.52:448][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.18-19.02.52:448][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.18-19.02.52:448][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.18-19.02.52:448][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.18-19.02.52:464][  0]LogNetVersion: FPSGameStarterKit 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3513021984)
+[2021.02.18-19.02.52:918][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018D611D4100), frame # 0
+[2021.02.18-19.02.52:918][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D61110E00), frame # 0
+[2021.02.18-19.02.52:919][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D61188A00), frame # 0
+[2021.02.18-19.02.52:982][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.055694 seconds
+[2021.02.18-19.02.52:987][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.18-19.02.52:987][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.18-19.02.52:987][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.18-19.02.53:473][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.18-19.02.53:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.18-19.02.53:630][  0]SourceControl: Source control is disabled
+[2021.02.18-19.02.54:482][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.18-19.02.54:512][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.18-19.02.54:512][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.18-19.02.54:610][  0]LogOcInput: OculusInput pre-init called
+[2021.02.18-19.02.54:630][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.18-19.02.54:630][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.18-19.02.54:730][  0]LogEngine: Initializing Engine...
+[2021.02.18-19.02.54:732][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.18-19.02.54:732][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.18-19.02.54:733][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.18-19.02.54:870][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.18-19.02.54:883][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.18-19.02.54:883][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D68827C00), frame # 0
+[2021.02.18-19.02.54:883][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D6886A840), frame # 0
+[2021.02.18-19.02.54:891][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.02.54:891][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.02.54:892][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.02.54:892][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.02.54:892][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.02.54:892][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.02.54:892][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.02.54:892][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.02.54:892][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.02.54:892][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.02.54:912][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.02.54:912][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.02.54:960][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.02.54:963][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.02.54:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.02.54:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.02.54:967][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.02.54:968][  0]LogInit: FAudioDevice initialized.
+[2021.02.18-19.02.54:968][  0]LogNetVersion: Set ProjectVersion to 2.2.0.25. Version Checksum will be recalculated on next use.
+[2021.02.18-19.02.55:127][  0]LogDerivedDataCache: Saved boot cache 0.16s 75MB C:/Users/menar/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.18-19.02.55:129][  0]LogInit: Texture streaming: Enabled
+[2021.02.18-19.02.55:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.18-19.02.55:158][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.18-19.02.55:164][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.18-19.02.55:235][  0]LogInit: Transaction tracking system initialized
+[2021.02.18-19.02.55:286][  0]BlueprintLog: New page: Editor Load
+[2021.02.18-19.02.55:411][  0]LocalizationService: Localization service is disabled
+[2021.02.18-19.02.55:699][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.18-19.02.55:699][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.18-19.02.55:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/' took 0.04s
+[2021.02.18-19.02.56:443][  0]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.18-19.03.18:460][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2021.02.18-19.03.18:461][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.18-19.03.18:495][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.18-19.03.18:582][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.18-19.03.18:594][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.18-19.03.18:595][  0]LogUnrealEdMisc: Loading editor; pre map load, took 31.197
+[2021.02.18-19.03.18:595][  0]Cmd: MAP LOAD FILE="../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.18-19.03.18:596][  0]LightingResults: New page: Lighting Build
+[2021.02.18-19.03.18:597][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.03.18:597][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.03.18:598][  0]MapCheck: New page: Map Check
+[2021.02.18-19.03.18:598][  0]LightingResults: New page: Lighting Build
+[2021.02.18-19.03.18:610][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D68827C00), frame # 0
+[2021.02.18-19.03.18:610][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D6886A840), frame # 0
+[2021.02.18-19.03.18:610][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.02.18-19.03.23:804][  0]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.03.23:805][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D06C9C200), frame # 0
+[2021.02.18-19.03.23:805][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D06C99440), frame # 0
+[2021.02.18-19.03.24:236][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.18-19.03.24:441][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.02.18-19.03.24:442][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.18-19.03.24:443][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.256ms to complete.
+[2021.02.18-19.03.24:443][  0]LogFileHelpers: Loading map 'Testing' took 5.847
+[2021.02.18-19.03.24:445][  0]LogUnrealEdMisc: Total Editor Startup Time, took 37.047
+[2021.02.18-19.03.24:590][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.03.24:598][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.03.24:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.03.24:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.03.24:626][  0]LogCollectionManager: Loaded 0 collections in 0.002476 seconds
+[2021.02.18-19.03.24:650][  0]LogFileCache: Scanning file cache for directory 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Collections/' took 0.00s
+[2021.02.18-19.03.24:650][  0]LogFileCache: Scanning file cache for directory 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/Developers/menar/Collections/' took 0.00s
+[2021.02.18-19.03.24:650][  0]LogFileCache: Scanning file cache for directory 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/Collections/' took 0.00s
+[2021.02.18-19.03.24:650][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 3427 classes and 821 folders.
+[2021.02.18-19.03.24:655][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.18-19.03.24:737][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.18-19.03.24:739][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.18-19.03.24:801][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.18-19.03.24:806][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.18-19.03.24:892][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2021.02.18-19.03.25:132][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.18-19.03.25:132][  0]LogLoad: (Engine Initialization) Total time: 37.73 seconds
+[2021.02.18-19.03.25:132][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.18-19.03.25:458][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.18-19.03.25:470][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.18-19.03.27:285][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.815 s
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: 
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: Ensure condition failed: FMath::IsFinite(TexelFactor) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Classes\Engine/TextureStreamingTypes.h] [Line: 96]
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: 
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: Stack: 
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb50e68558 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb4f9e9ab4 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb5063c4e6 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb505e4431 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb505e4bb4 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb505e5113 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb5060270c UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb4fb20648 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb4fb1c46f UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb5872b7e4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb590037e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ff710377800 UE4Editor.exe!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71038ba7c UE4Editor.exe!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71038bb5a UE4Editor.exe!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ff71039e31d UE4Editor.exe!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7103a145a UE4Editor.exe!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffbc1147c24 KERNEL32.DLL!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: [Callstack] 0x00007ffbc2bed721 ntdll.dll!UnknownFunction []
+[2021.02.18-19.03.27:296][  0]LogOutputDevice: Error: 
+[2021.02.18-19.03.27:334][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2021.02.18-19.03.36:473][  0]LogStats:                    SendNewReport -  9.139 s
+[2021.02.18-19.03.36:473][  0]LogStats:             FDebug::EnsureFailed - 11.003 s
+[2021.02.18-19.03.36:631][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2021.02.18-19.03.36:756][  1]LogAssetRegistry: Asset discovery search completed in 44.7135 seconds
+[2021.02.18-19.03.36:761][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.02.18-19.03.44:960][ 80]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube22)
+[2021.02.18-19.03.45:636][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2021.02.18-19.03.53:927][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2021.02.18-19.04.17:264][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.04.18:221][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.02.18-19.04.25:575][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2021.02.18-19.05.04:127][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.05.13:092][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2021.02.18-19.05.21:937][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2021.02.18-19.05.31:003][200]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.18-19.05.31:049][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.02.18-19.05.31:421][200]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing1E02EDEC427EFE458C1682AAE1B1005D.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.05.31:674][200]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataD2C3FD1F44FF50570458F8912DFFDAD6.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.05.31:686][200]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.05.31:686][200]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.05.31:686][200]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.05.38:780][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2021.02.18-19.05.40:900][300]Cmd: EDIT COPY
+[2021.02.18-19.05.45:820][352]Cmd: TRANSACTION UNDO
+[2021.02.18-19.05.45:820][352]LogEditorTransaction: Undo Move Actors
+[2021.02.18-19.05.49:420][403]Cmd: EDIT COPY
+[2021.02.18-19.05.50:340][413]Cmd: EDIT PASTE
+[2021.02.18-19.06.25:147][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.07.02:306][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2021.02.18-19.07.04:220][197]Cmd: EDIT COPY
+[2021.02.18-19.07.04:879][204]Cmd: EDIT PASTE
+[2021.02.18-19.08.42:402][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2021.02.18-19.10.31:510][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2021.02.18-19.10.35:088][477]Cmd: EDIT COPY
+[2021.02.18-19.10.35:926][486]Cmd: EDIT PASTE
+[2021.02.18-19.10.38:061][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2021.02.18-19.10.45:467][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2021.02.18-19.10.46:918][603]Cmd: EDIT COPY
+[2021.02.18-19.10.47:756][610]Cmd: EDIT PASTE
+[2021.02.18-19.11.13:295][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2021.02.18-19.11.43:143][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2021.02.18-19.12.05:142][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2021.02.18-19.12.56:857][979]LogActorFactory: Actor Factory created Cube
+[2021.02.18-19.13.00:726][ 18]LogActorFactory: Actor Factory created Cube
+[2021.02.18-19.13.10:752][119]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2021.02.18-19.13.12:463][167]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.02.18-19.13.18:811][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.02.18-19.13.33:307][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.02.18-19.13.35:571][409]Cmd: EDIT COPY
+[2021.02.18-19.13.36:206][416]Cmd: EDIT PASTE
+[2021.02.18-19.14.13:349][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.02.18-19.14.13:694][824]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing01D3A24247DDBBBF702D299E2047B564.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.14.13:899][824]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataCA430CC94725192414E7C0B7E8A628B3.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.14.13:912][824]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.14.13:912][824]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.14.13:912][824]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.14.28:126][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.02.18-19.14.29:194][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2021.02.18-19.14.35:524][ 60]Cmd: EDIT COPY
+[2021.02.18-19.14.35:890][ 64]Cmd: EDIT PASTE
+[2021.02.18-19.15.04:642][378]Cmd: EDIT COPY
+[2021.02.18-19.15.05:362][386]Cmd: EDIT PASTE
+[2021.02.18-19.15.32:451][681]Cmd: EDIT COPY
+[2021.02.18-19.15.32:991][687]Cmd: EDIT PASTE
+[2021.02.18-19.15.38:872][751]Cmd: TRANSACTION UNDO
+[2021.02.18-19.15.38:872][751]LogEditorTransaction: Undo Move Actors
+[2021.02.18-19.15.40:312][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2021.02.18-19.15.41:866][798]Cmd: EDIT COPY
+[2021.02.18-19.15.42:613][806]Cmd: EDIT PASTE
+[2021.02.18-19.15.46:886][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2021.02.18-19.15.48:935][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2021.02.18-19.16.34:764][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.16.36:185][390]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol3)
+[2021.02.18-19.18.11:698][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2021.02.18-19.18.20:339][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2021.02.18-19.18.50:630][842]Cmd: TRANSACTION UNDO
+[2021.02.18-19.18.50:630][842]LogEditorTransaction: Undo Move Actors
+[2021.02.18-19.18.52:458][874]Cmd: EDIT COPY
+[2021.02.18-19.18.53:557][885]Cmd: EDIT PASTE
+[2021.02.18-19.19.27:686][247]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube38)
+[2021.02.18-19.19.30:122][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2021.02.18-19.19.36:660][343]Cmd: TRANSACTION UNDO
+[2021.02.18-19.19.36:660][343]LogEditorTransaction: Undo Move Actors
+[2021.02.18-19.19.50:549][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.02.18-19.20.26:087][869]Cmd: TRANSACTION UNDO
+[2021.02.18-19.20.26:087][869]LogEditorTransaction: Undo Move Actors
+[2021.02.18-19.20.28:600][919]Cmd: TRANSACTION UNDO
+[2021.02.18-19.20.28:600][919]LogEditorTransaction: Undo Clicking on Actors
+[2021.02.18-19.20.29:943][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.20.30:871][939]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.02.18-19.20.31:535][946]Cmd: TRANSACTION UNDO
+[2021.02.18-19.20.31:535][946]LogEditorTransaction: Undo Clicking on Actors
+[2021.02.18-19.20.32:763][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2021.02.18-19.20.42:435][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2021.02.18-19.21.16:997][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2021.02.18-19.21.53:827][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.21.54:890][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2021.02.18-19.22.09:299][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.22.46:061][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.02.18-19.23.08:249][586]Cmd: EDIT COPY
+[2021.02.18-19.23.10:050][604]Cmd: EDIT PASTE
+[2021.02.18-19.24.13:063][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2021.02.18-19.25.03:091][803]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube24)
+[2021.02.18-19.25.04:377][839]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.02.18-19.25.05:437][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2021.02.18-19.25.39:786][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2021.02.18-19.25.41:242][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2021.02.18-19.25.42:528][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.25.43:790][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube35)
+[2021.02.18-19.25.49:406][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2021.02.18-19.25.51:612][332]Cmd: EDIT COPY
+[2021.02.18-19.26.00:292][424]Cmd: TRANSACTION UNDO
+[2021.02.18-19.26.00:292][424]LogEditorTransaction: Undo Move Actors
+[2021.02.18-19.26.01:917][455]Cmd: EDIT PASTE
+[2021.02.18-19.27.39:501][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2021.02.18-19.27.53:800][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2021.02.18-19.28.28:943][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube38)
+[2021.02.18-19.28.46:532][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
+[2021.02.18-19.28.48:460][248]Cmd: EDIT COPY
+[2021.02.18-19.29.01:511][389]Cmd: EDIT COPY
+[2021.02.18-19.29.02:251][397]Cmd: EDIT PASTE
+[2021.02.18-19.29.09:851][479]Cmd: EDIT COPY
+[2021.02.18-19.29.10:671][488]Cmd: EDIT PASTE
+[2021.02.18-19.29.23:241][624]Cmd: EDIT PASTE
+[2021.02.18-19.29.30:333][701]Cmd: EDIT PASTE
+[2021.02.18-19.29.49:197][904]Cmd: EDIT COPY
+[2021.02.18-19.29.49:864][911]Cmd: EDIT PASTE
+[2021.02.18-19.30.01:841][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder10)
+[2021.02.18-19.30.14:837][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.02.18-19.30.15:193][176]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/TestingD282F04946D8B2BE9E154E8441447995.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.30.15:391][176]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataAFB535014893789647F11D8D570F4805.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.30.15:403][176]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.30.15:403][176]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.30.15:403][176]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.30.17:734][202]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.30.17:906][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.30.17:939][202]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:30:17 AM)
+[2021.02.18-19.30.17:952][202]LogOnline: OSS: Creating online subsystem instance for: Null
+[2021.02.18-19.30.17:955][202]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [Null]
+[2021.02.18-19.30.17:970][202]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.30.18:066][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096169s)
+[2021.02.18-19.30.18:067][202]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.30.18:067][202]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D074AA200), frame # 17202
+[2021.02.18-19.30.18:068][202]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D06AE6C00), frame # 17202
+[2021.02.18-19.30.18:068][202]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2021.02.18-19.30.18:068][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.097852s)
+[2021.02.18-19.30.18:083][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.30.18:088][202]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.30.18:088][202]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.30.18:089][202]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.30.18:089][202]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.30.18:091][202]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.30.18:091][202]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.30.18:127][202]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.30.18:127][202]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.30.18:127][202]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.30.18:127][202]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.30.18:128][202]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.30.18:139][202]LogInit: FAudioDevice initialized.
+[2021.02.18-19.30.18:212][202]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.30.18:398][202]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.30.18
+[2021.02.18-19.30.18:488][202]LogWorld: Bringing up level for play took: 0.134235
+[2021.02.18-19.30.18:511][202]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.02.18-19.30.18:587][202]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.02.18-19.30.18:853][202]PIE: Server logged in
+[2021.02.18-19.30.18:856][202]PIE: Play in editor total start time 1.066 seconds.
+[2021.02.18-19.30.54:503][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.30.54:503][639]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.30.54:504][639]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.30.54:515][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.30.54:647][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.30.54:657][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.30.54:691][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.30.54:722][639]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D06AE6C00), frame # 17639
+[2021.02.18-19.30.54:722][639]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D074AA200), frame # 17639
+[2021.02.18-19.30.54:725][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.02.18-19.30.54:772][640]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.02.18-19.31.05:547][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2021.02.18-19.31.14:217][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder12)
+[2021.02.18-19.31.30:061][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.31.53:294][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.02.18-19.31.53:646][256]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing64FAA2FC42AC346F4594D4907F5E4D79.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.31.53:822][256]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData3CEA0AEB44112279C181889218386976.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.31.53:833][256]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.31.53:833][256]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.31.53:833][256]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.31.56:104][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.32.12:139][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.32.14:660][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.32.26:318][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2021.02.18-19.32.47:753][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.02.18-19.32.48:100][732]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing8833B8654B5412DA162EBAB2D7DB2C27.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.32.48:277][732]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData10ADBBF846AEF924DC87888CF98C9625.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.32.48:288][732]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.32.48:288][732]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.32.48:288][732]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.32.49:670][749]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.32.49:692][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.32.49:692][749]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:32:49 AM)
+[2021.02.18-19.32.49:693][749]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.32.49:858][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164749s)
+[2021.02.18-19.32.49:860][749]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.32.49:860][749]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D77DA6C00), frame # 18749
+[2021.02.18-19.32.49:860][749]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D068E79C0), frame # 18749
+[2021.02.18-19.32.49:861][749]LogPlayLevel: PIE: World Init took: (0.002524s)
+[2021.02.18-19.32.49:861][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.167599s)
+[2021.02.18-19.32.49:876][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.32.49:880][749]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.32.49:880][749]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.32.49:882][749]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.32.49:882][749]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.32.49:885][749]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.32.49:885][749]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.32.49:925][749]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.32.49:925][749]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.32.49:925][749]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.32.49:925][749]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.32.49:926][749]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.32.49:942][749]LogInit: FAudioDevice initialized.
+[2021.02.18-19.32.49:973][749]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.32.49:995][749]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.32.49
+[2021.02.18-19.32.50:000][749]LogWorld: Bringing up level for play took: 0.026079
+[2021.02.18-19.32.50:001][749]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.02.18-19.32.50:014][749]PIE: Server logged in
+[2021.02.18-19.32.50:015][749]PIE: Play in editor total start time 0.327 seconds.
+[2021.02.18-19.33.10:101][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.33.10:101][995]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.33.10:102][995]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.33.10:106][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.33.10:283][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.33.10:289][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.33.10:300][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.33.10:329][995]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D068E79C0), frame # 18995
+[2021.02.18-19.33.10:329][995]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D77DA6C00), frame # 18995
+[2021.02.18-19.33.10:332][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.02.18-19.33.10:382][996]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.02.18-19.33.14:830][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.33.24:126][138]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2021.02.18-19.33.37:907][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.34.12:323][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.34.14:865][633]Cmd: DELETE
+[2021.02.18-19.34.14:865][633]Cmd: ACTOR DELETE
+[2021.02.18-19.34.14:891][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.34.14:892][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.34.14:910][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.02.18-19.34.14:921][633]LogEditorActor: Deleted 2 Actors (0.055 secs)
+[2021.02.18-19.34.16:133][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.34.17:709][664]Cmd: EDIT COPY
+[2021.02.18-19.34.19:404][683]Cmd: EDIT PASTE
+[2021.02.18-19.34.25:523][751]Cmd: EDIT COPY
+[2021.02.18-19.34.26:172][758]Cmd: EDIT PASTE
+[2021.02.18-19.34.37:116][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.34.39:327][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.02.18-19.34.39:680][896]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/TestingE3CA821C45A0DE9FD054EF8F16DD7608.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.34.39:851][896]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataED4D3F9F4341E08B976B12AE85B74408.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.34.39:863][896]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.34.39:863][896]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.34.39:863][896]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.34.41:847][918]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.34.41:871][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.34.41:871][918]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:34:41 AM)
+[2021.02.18-19.34.41:872][918]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.34.42:007][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135808s)
+[2021.02.18-19.34.42:009][918]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.34.42:009][918]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D074A9200), frame # 19918
+[2021.02.18-19.34.42:009][918]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D07591440), frame # 19918
+[2021.02.18-19.34.42:010][918]LogPlayLevel: PIE: World Init took: (0.002387s)
+[2021.02.18-19.34.42:010][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.138486s)
+[2021.02.18-19.34.42:035][918]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.34.42:042][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.34.42:042][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.34.42:044][918]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.34.42:044][918]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.34.42:046][918]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.34.42:046][918]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.34.42:094][918]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.34.42:094][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.34.42:094][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.34.42:094][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.34.42:095][918]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.34.42:107][918]LogInit: FAudioDevice initialized.
+[2021.02.18-19.34.42:120][918]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.34.42:153][918]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.34.42
+[2021.02.18-19.34.42:157][918]LogWorld: Bringing up level for play took: 0.037930
+[2021.02.18-19.34.42:158][918]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.02.18-19.34.42:169][918]PIE: Server logged in
+[2021.02.18-19.34.42:170][918]PIE: Play in editor total start time 0.303 seconds.
+[2021.02.18-19.34.52:442][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.34.52:442][ 41]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.34.52:444][ 41]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.34.52:449][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.34.52:618][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.34.52:625][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.34.52:638][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.34.52:662][ 41]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D07591440), frame # 20041
+[2021.02.18-19.34.52:662][ 41]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D074A9200), frame # 20041
+[2021.02.18-19.34.52:665][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.02.18-19.34.52:706][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.02.18-19.34.53:912][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.35.07:446][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2021.02.18-19.35.22:837][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.35.41:059][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.02.18-19.35.41:416][505]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/TestingF3E08778462022665FD355A8D53D962A.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.35.41:612][505]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData217CCDD049A1FBCFFA374DAF967F09C2.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.35.41:623][505]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.35.41:623][505]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.35.41:623][505]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.35.44:056][533]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.35.44:074][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.35.44:074][533]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:35:44 AM)
+[2021.02.18-19.35.44:075][533]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.35.44:194][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118648s)
+[2021.02.18-19.35.44:195][533]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.35.44:195][533]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D8DB46A00), frame # 20533
+[2021.02.18-19.35.44:195][533]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D77FBCA40), frame # 20533
+[2021.02.18-19.35.44:195][533]LogPlayLevel: PIE: World Init took: (0.001653s)
+[2021.02.18-19.35.44:195][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.120718s)
+[2021.02.18-19.35.44:213][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.35.44:222][533]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.35.44:222][533]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.35.44:223][533]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.35.44:223][533]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.35.44:227][533]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.35.44:227][533]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.35.44:263][533]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.35.44:264][533]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.35.44:264][533]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.35.44:264][533]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.35.44:264][533]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.35.44:279][533]LogInit: FAudioDevice initialized.
+[2021.02.18-19.35.44:289][533]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.35.44:315][533]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.35.44
+[2021.02.18-19.35.44:319][533]LogWorld: Bringing up level for play took: 0.029428
+[2021.02.18-19.35.44:320][533]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.02.18-19.35.44:331][533]PIE: Server logged in
+[2021.02.18-19.35.44:332][533]PIE: Play in editor total start time 0.262 seconds.
+[2021.02.18-19.35.52:880][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.35.52:880][634]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.35.52:881][634]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.35.52:888][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.35.53:045][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.35.53:051][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.35.53:066][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.35.53:092][634]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D77FBCA40), frame # 20634
+[2021.02.18-19.35.53:092][634]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D8DB46A00), frame # 20634
+[2021.02.18-19.35.53:095][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.02.18-19.35.53:134][635]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.02.18-19.36.01:515][726]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol2)
+[2021.02.18-19.36.15:817][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.36.27:621][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.36.29:401][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.36.33:076][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.36.57:549][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.37.02:821][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.37.07:731][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2021.02.18-19.37.10:455][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.37.23:728][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2021.02.18-19.37.26:862][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.37.28:120][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2021.02.18-19.38.04:735][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.02.18-19.38.05:078][917]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/TestingDB807619462A0861CDADD1B928150F58.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.38.05:260][917]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData21D8B6E045B5810A620ADB9DF2EA3BBA.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.38.05:271][917]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.38.05:272][917]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.38.05:272][917]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.38.05:877][926]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.38.05:899][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.38.05:899][926]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:38:05 AM)
+[2021.02.18-19.38.05:899][926]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.38.06:018][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119218s)
+[2021.02.18-19.38.06:023][926]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.38.06:023][926]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018DAAE3E000), frame # 21926
+[2021.02.18-19.38.06:024][926]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D77FBC540), frame # 21926
+[2021.02.18-19.38.06:025][926]LogPlayLevel: PIE: World Init took: (0.007297s)
+[2021.02.18-19.38.06:026][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.127154s)
+[2021.02.18-19.38.06:045][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.02.18-19.38.06:047][926]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.38.06:048][926]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.38.06:048][926]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.38.06:048][926]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.38.06:050][926]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.38.06:051][926]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.38.06:096][926]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.38.06:096][926]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.38.06:097][926]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.38.06:097][926]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.38.06:097][926]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.38.06:110][926]LogInit: FAudioDevice initialized.
+[2021.02.18-19.38.06:122][926]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.38.06:152][926]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.38.06
+[2021.02.18-19.38.06:158][926]LogWorld: Bringing up level for play took: 0.035317
+[2021.02.18-19.38.06:159][926]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.18-19.38.06:177][926]PIE: Server logged in
+[2021.02.18-19.38.06:178][926]PIE: Play in editor total start time 0.284 seconds.
+[2021.02.18-19.38.19:751][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.38.19:751][ 88]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.38.19:752][ 88]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.38.19:756][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.38.19:926][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.38.19:937][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.38.19:968][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.38.19:977][ 88]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D77FBC540), frame # 22088
+[2021.02.18-19.38.19:977][ 88]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018DAAE3E000), frame # 22088
+[2021.02.18-19.38.19:980][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.02.18-19.38.20:041][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.02.18-19.38.26:581][162]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder6)
+[2021.02.18-19.38.27:556][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.38.28:569][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.38.34:965][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2021.02.18-19.38.36:433][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.38.37:977][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.38.44:780][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2021.02.18-19.38.58:136][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.02.18-19.39.24:764][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.39.33:956][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2021.02.18-19.39.42:739][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.40.11:941][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.40.18:604][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2021.02.18-19.40.32:616][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.02.18-19.40.33:987][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2021.02.18-19.40.35:133][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
+[2021.02.18-19.40.40:881][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder10)
+[2021.02.18-19.40.51:021][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.02.18-19.40.53:710][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2021.02.18-19.40.57:581][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2021.02.18-19.41.00:396][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder11)
+[2021.02.18-19.41.05:622][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder9)
+[2021.02.18-19.41.11:423][801]Cmd: DELETE
+[2021.02.18-19.41.11:424][801]Cmd: ACTOR DELETE
+[2021.02.18-19.41.11:450][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.41.11:451][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.41.11:451][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.41.11:452][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.41.11:452][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.41.11:469][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.02.18-19.41.11:484][801]LogEditorActor: Deleted 5 Actors (0.060 secs)
+[2021.02.18-19.41.12:356][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder11)
+[2021.02.18-19.41.35:444][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.02.18-19.41.35:805][ 33]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/TestingE515B3684D20F77FD55AC4A8426DACE1.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.41.36:005][ 33]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataBDA967CE434F88079342949CD628B401.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.41.36:017][ 33]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.41.36:017][ 33]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.41.36:017][ 33]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.41.43:865][119]Cmd: EDIT COPY
+[2021.02.18-19.41.44:856][130]Cmd: EDIT PASTE
+[2021.02.18-19.41.58:281][277]Cmd: EDIT COPY
+[2021.02.18-19.41.58:911][284]Cmd: EDIT PASTE
+[2021.02.18-19.42.05:550][357]Cmd: EDIT COPY
+[2021.02.18-19.42.06:180][362]Cmd: EDIT PASTE
+[2021.02.18-19.42.11:811][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder13)
+[2021.02.18-19.42.16:641][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder14)
+[2021.02.18-19.42.18:046][492]Cmd: EDIT COPY
+[2021.02.18-19.42.18:500][497]Cmd: EDIT PASTE
+[2021.02.18-19.42.25:297][572]Cmd: EDIT COPY
+[2021.02.18-19.42.25:845][578]Cmd: EDIT PASTE
+[2021.02.18-19.42.34:491][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder14)
+[2021.02.18-19.42.36:442][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder12)
+[2021.02.18-19.42.37:499][705]Cmd: DELETE
+[2021.02.18-19.42.37:499][705]Cmd: ACTOR DELETE
+[2021.02.18-19.42.37:517][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.42.37:595][705]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.02.18-19.42.37:603][705]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2021.02.18-19.42.38:689][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder11)
+[2021.02.18-19.42.39:202][723]Cmd: DELETE
+[2021.02.18-19.42.39:202][723]Cmd: ACTOR DELETE
+[2021.02.18-19.42.39:221][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.42.39:239][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.02.18-19.42.39:244][723]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2021.02.18-19.42.41:294][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder14)
+[2021.02.18-19.42.42:348][757]Cmd: EDIT COPY
+[2021.02.18-19.42.42:891][763]Cmd: EDIT PASTE
+[2021.02.18-19.43.10:722][ 60]Cmd: EDIT COPY
+[2021.02.18-19.43.11:363][ 65]Cmd: EDIT PASTE
+[2021.02.18-19.43.30:058][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.02.18-19.43.30:413][238]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing93DA82A847BEDEB6839319891A5A05F0.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.43.30:617][238]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData4D01F60A41251183A3C1D99488A7CC2D.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.43.30:632][238]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.43.30:633][238]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.43.30:633][238]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.43.31:413][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2021.02.18-19.43.33:863][274]Cmd: EDIT COPY
+[2021.02.18-19.43.34:927][285]Cmd: EDIT PASTE
+[2021.02.18-19.43.43:769][381]Cmd: TRANSACTION UNDO
+[2021.02.18-19.43.43:769][381]LogEditorTransaction: Undo Rotate Actors
+[2021.02.18-19.43.51:163][460]Cmd: TRANSACTION UNDO
+[2021.02.18-19.43.51:164][460]LogEditorTransaction: Undo Rotate Actors
+[2021.02.18-19.44.38:452][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube45)
+[2021.02.18-19.45.38:523][298]Cmd: EDIT COPY
+[2021.02.18-19.45.39:553][309]Cmd: EDIT PASTE
+[2021.02.18-19.46.11:524][628]Cmd: EDIT COPY
+[2021.02.18-19.46.12:167][635]Cmd: EDIT PASTE
+[2021.02.18-19.46.35:277][879]LogActorFactory: Actor Factory created Cube
+[2021.02.18-19.46.39:387][925]LogActorFactory: Actor Factory created Cube
+[2021.02.18-19.47.41:387][603]LogActorFactory: Actor Factory created Cube
+[2021.02.18-19.47.45:214][645]LogActorFactory: Actor Factory created Cube
+[2021.02.18-19.47.59:375][803]Cmd: EDIT COPY
+[2021.02.18-19.47.59:921][809]Cmd: EDIT PASTE
+[2021.02.18-19.48.12:382][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube49)
+[2021.02.18-19.48.26:127][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.48.27:769][112]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol2)
+[2021.02.18-19.48.30:064][137]Cmd: EDIT COPY
+[2021.02.18-19.48.30:877][146]Cmd: EDIT PASTE
+[2021.02.18-19.48.36:199][203]Cmd: EDIT COPY
+[2021.02.18-19.48.36:932][211]Cmd: EDIT PASTE
+[2021.02.18-19.48.42:205][267]Cmd: EDIT COPY
+[2021.02.18-19.48.43:032][276]Cmd: EDIT PASTE
+[2021.02.18-19.48.50:967][360]Cmd: EDIT COPY
+[2021.02.18-19.48.51:544][366]Cmd: EDIT PASTE
+[2021.02.18-19.49.34:776][827]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol7)
+[2021.02.18-19.49.54:443][ 23]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol6)
+[2021.02.18-19.50.22:369][315]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol6)
+[2021.02.18-19.50.24:795][339]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol6)
+[2021.02.18-19.50.54:590][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
+[2021.02.18-19.50.55:437][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube41)
+[2021.02.18-19.51.02:379][720]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol6)
+[2021.02.18-19.51.04:329][739]Cmd: EDIT COPY
+[2021.02.18-19.51.05:185][747]Cmd: EDIT PASTE
+[2021.02.18-19.51.15:815][857]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol5)
+[2021.02.18-19.51.17:062][870]Cmd: DELETE
+[2021.02.18-19.51.17:062][870]Cmd: ACTOR DELETE
+[2021.02.18-19.51.17:087][870]LogEditorActor: Deleted Actor: AI_Patrol_C
+[2021.02.18-19.51.17:159][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.02.18-19.51.17:166][870]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2021.02.18-19.51.24:642][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2021.02.18-19.51.34:976][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.02.18-19.51.35:333][ 58]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing4BAC4346419BE841B9C36BBC1BA4B14B.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.51.35:535][ 58]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataA6B9CFDF4FC4707EDA203B8A20D69E65.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.51.35:547][ 58]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.51.35:547][ 58]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.51.35:547][ 58]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.51.41:646][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2021.02.18-19.51.52:061][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.02.18-19.51.52:416][230]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing9194C2A74F72558037A53F98BD8428F3.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.51.52:619][230]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData4041280141EA76F3A7EE6BBB89047960.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.51.52:631][230]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.51.52:631][230]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.51.52:631][230]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.51.55:792][265]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.51.55:806][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.51.55:806][265]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:51:55 AM)
+[2021.02.18-19.51.55:806][265]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.51.55:912][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105533s)
+[2021.02.18-19.51.55:913][265]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.51.55:914][265]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D7DF1CC00), frame # 30265
+[2021.02.18-19.51.55:914][265]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D711A02C0), frame # 30265
+[2021.02.18-19.51.55:914][265]LogPlayLevel: PIE: World Init took: (0.001924s)
+[2021.02.18-19.51.55:914][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.107637s)
+[2021.02.18-19.51.55:933][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.51.55:937][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.51.55:938][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.51.55:940][265]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.51.55:940][265]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.51.55:945][265]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.51.55:945][265]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.51.55:986][265]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.51.55:987][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.51.55:987][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.51.55:987][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.51.55:988][265]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.51.56:000][265]LogInit: FAudioDevice initialized.
+[2021.02.18-19.51.56:015][265]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.51.56:047][265]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.51.56
+[2021.02.18-19.51.56:065][265]LogWorld: Bringing up level for play took: 0.048421
+[2021.02.18-19.51.56:066][265]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.02.18-19.51.56:076][265]PIE: Server logged in
+[2021.02.18-19.51.56:078][265]PIE: Play in editor total start time 0.274 seconds.
+[2021.02.18-19.52.53:160][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.52.53:160][969]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.52.53:161][969]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.52.53:166][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.52.53:338][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.52.53:342][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.52.53:356][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.52.53:385][969]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D711A02C0), frame # 30969
+[2021.02.18-19.52.53:385][969]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D7DF1CC00), frame # 30969
+[2021.02.18-19.52.53:388][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.02.18-19.52.53:435][970]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.02.18-19.53.13:978][157]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.02.18-19.53.45:841][462]Cmd: EDIT COPY
+[2021.02.18-19.53.46:768][471]Cmd: EDIT PASTE
+[2021.02.18-19.54.41:929][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.02.18-19.54.42:282][ 21]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing4463FB974559D91614D15BA855BAB307.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-19.54.42:452][ 21]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltDataE0C8950C47718F64E986BFA5078CC88D.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-19.54.42:465][ 21]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-19.54.42:465][ 21]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-19.54.42:465][ 21]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-19.54.44:798][ 47]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-19.54.44:819][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-19.54.44:819][ 47]PIE: New page: PIE session: Testing (Feb 18, 2021, 9:54:44 AM)
+[2021.02.18-19.54.44:820][ 47]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.54.44:978][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.157834s)
+[2021.02.18-19.54.44:979][ 47]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-19.54.44:979][ 47]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018DB5247000), frame # 32047
+[2021.02.18-19.54.44:979][ 47]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D77CECB80), frame # 32047
+[2021.02.18-19.54.44:980][ 47]LogPlayLevel: PIE: World Init took: (0.001999s)
+[2021.02.18-19.54.44:980][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.160171s)
+[2021.02.18-19.54.44:997][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-19.54.45:000][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-19.54.45:000][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-19.54.45:001][ 47]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-19.54.45:001][ 47]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-19.54.45:003][ 47]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-19.54.45:003][ 47]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-19.54.45:039][ 47]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-19.54.45:039][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-19.54.45:039][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-19.54.45:039][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-19.54.45:040][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-19.54.45:051][ 47]LogInit: FAudioDevice initialized.
+[2021.02.18-19.54.45:057][ 47]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-19.54.45:084][ 47]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-14.54.45
+[2021.02.18-19.54.45:089][ 47]LogWorld: Bringing up level for play took: 0.030808
+[2021.02.18-19.54.45:089][ 47]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.02.18-19.54.45:101][ 47]PIE: Server logged in
+[2021.02.18-19.54.45:102][ 47]PIE: Play in editor total start time 0.288 seconds.
+[2021.02.18-19.55.44:870][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.55.44:871][776]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-19.55.44:873][776]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-19.55.44:880][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.55.45:029][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-19.55.45:036][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-19.55.45:047][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-19.55.45:075][776]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D77CECB80), frame # 32776
+[2021.02.18-19.55.45:076][776]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018DB5247000), frame # 32776
+[2021.02.18-19.55.45:079][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.02.18-19.55.45:123][777]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.02.18-19.56.33:846][264]Cmd: EDIT COPY
+[2021.02.18-19.56.34:603][272]Cmd: EDIT PASTE
+[2021.02.18-19.57.04:757][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.57.08:378][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.57.09:696][628]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.02.18-19.57.11:510][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.57.48:692][ 32]Cmd: EDIT COPY
+[2021.02.18-19.57.49:453][ 40]Cmd: EDIT PASTE
+[2021.02.18-19.57.53:763][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.58.55:560][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.58.58:740][724]Cmd: EDIT COPY
+[2021.02.18-19.59.00:577][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.02.18-19.59.04:188][778]Cmd: EDIT COPY
+[2021.02.18-19.59.04:934][786]Cmd: EDIT PASTE
+[2021.02.18-19.59.34:860][ 97]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol8)
+[2021.02.18-19.59.45:603][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.02.18-19.59.46:924][223]Cmd: DELETE
+[2021.02.18-19.59.46:924][223]Cmd: ACTOR DELETE
+[2021.02.18-19.59.46:956][223]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.02.18-19.59.47:022][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.02.18-19.59.47:032][223]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2021.02.18-19.59.48:138][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube34)
+[2021.02.18-19.59.57:002][328]LogEditorViewport: Clicking on Actor (LMB): AI_Patrol_C (AI_Patrol3)
+[2021.02.18-20.00.33:163][691]Cmd: EDIT COPY
+[2021.02.18-20.00.33:648][696]Cmd: EDIT PASTE
+[2021.02.18-20.01.09:380][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.02.18-20.01.09:743][ 57]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/TestingDE58A0D7455D0D5BBAD4CC8CF6A64F24.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-20.01.09:941][ 57]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData2EBB26F4402C53318315419D8AF115CD.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-20.01.09:952][ 57]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-20.01.09:953][ 57]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-20.01.09:953][ 57]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-20.01.13:780][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.18-20.01.13:797][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.18-20.01.13:797][ 98]PIE: New page: PIE session: Testing (Feb 18, 2021, 10:01:13 AM)
+[2021.02.18-20.01.13:797][ 98]LogPlayLevel: Creating play world package: /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-20.01.13:912][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115075s)
+[2021.02.18-20.01.13:914][ 98]LogAIModule: Creating AISystem for world Testing
+[2021.02.18-20.01.13:914][ 98]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018D9372EA00), frame # 36098
+[2021.02.18-20.01.13:914][ 98]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018D0746E980), frame # 36098
+[2021.02.18-20.01.13:915][ 98]LogPlayLevel: PIE: World Init took: (0.002271s)
+[2021.02.18-20.01.13:915][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS_Game/Maps/Testing.Testing to /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing (0.117850s)
+[2021.02.18-20.01.13:946][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.18-20.01.13:951][ 98]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.18-20.01.13:951][ 98]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.18-20.01.13:952][ 98]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.18-20.01.13:952][ 98]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.18-20.01.13:957][ 98]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.18-20.01.13:957][ 98]LogAudioMixer: Display: 1: FrontRight
+[2021.02.18-20.01.13:995][ 98]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.18-20.01.13:995][ 98]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.18-20.01.13:995][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.18-20.01.13:995][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.18-20.01.13:995][ 98]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.18-20.01.14:008][ 98]LogInit: FAudioDevice initialized.
+[2021.02.18-20.01.14:019][ 98]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.18-20.01.14:043][ 98]LogWorld: Bringing World /Game/FPS_Game/Maps/UEDPIE_0_Testing.Testing up for play (max tick rate 0) at 2021.02.18-15.01.14
+[2021.02.18-20.01.14:048][ 98]LogWorld: Bringing up level for play took: 0.027700
+[2021.02.18-20.01.14:048][ 98]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.18-20.01.14:060][ 98]PIE: Server logged in
+[2021.02.18-20.01.14:060][ 98]PIE: Play in editor total start time 0.267 seconds.
+[2021.02.18-20.01.41:560][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-20.01.41:560][433]LogWorld: BeginTearingDown for /Game/FPS_Game/Maps/UEDPIE_0_Testing
+[2021.02.18-20.01.41:562][433]LogWorld: UWorld::CleanupWorld for Testing, bSessionEnded=true, bCleanupResources=true
+[2021.02.18-20.01.41:572][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-20.01.41:730][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.18-20.01.41:735][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.18-20.01.41:751][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.18-20.01.41:775][433]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018D0746E980), frame # 36433
+[2021.02.18-20.01.41:775][433]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018D9372EA00), frame # 36433
+[2021.02.18-20.01.41:779][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.02.18-20.01.41:833][434]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.02.18-20.01.47:253][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.02.18-20.01.47:614][492]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing359E776C48C6EDE69B0BE6B1BAF0204F.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing.umap'
+[2021.02.18-20.01.47:833][492]LogSavePackage: Moving '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Saved/Testing_BuiltData21DB30DD4C486A3DAE44B7B1A4AD8AC2.tmp' to '../../../../../../Users/menar/OneDrive/Documents/GitHub/LDGroupProject/Content/FPS_Game/Maps/Testing_BuiltData.uasset'
+[2021.02.18-20.01.47:850][492]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.18-20.01.47:850][492]LogContentValidation: Display: Validating World /Game/FPS_Game/Maps/Testing.Testing
+[2021.02.18-20.01.47:850][492]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS_Game/Maps/Testing_BuiltData.Testing_BuiltData
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:620][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.01.55:621][578]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/menar/OneDrive/Documents/GitHub/LDGroupProject'
+[2021.02.18-20.02.08:481][578]LogSlate: Window 'Submit Files' being destroyed
+[2021.02.18-20.02.09:995][578]LogSourceControl: commit successful: [main f02eb73] MapLayout1
+[2021.02.18-20.02.10:060][578]SourceControl: [main f02eb73] MapLayout1
+[2021.02.18-20.02.10:060][578]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2021.02.18-20.02.10:066][578]SourceControl: Commited [main f02eb73] MapLayout1.
