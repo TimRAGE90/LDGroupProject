@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 03/10/21 13:40:33
 LogInit: Display: Running engine for game: FPSGameStarterKit
 LogPlatformFile: Not using cached read wrapper
@@ -8,12 +9,17 @@ LogStats: Stats thread started at 0.149396
 =======
 =======
 >>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
+=======
+>>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
 ﻿Log file open, 03/10/21 11:31:50
 LogInit: Display: Running engine for game: FPSGameStarterKit
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.243139
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
+=======
 >>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
 =======
 >>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
@@ -208,6 +214,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2021.03.10-18.40.33:364][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -664,6 +671,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.10-18.40.42:462][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
 [2021.03.10-18.40.42:467][  0]LogContentStreaming: Texture pool size now 1000 MB
 =======
+=======
+>>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
 =======
 >>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
 [2021.03.10-16.31.50:473][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -1883,6 +1892,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.10-16.57.29:265][768]LogExit: Exiting.
 [2021.03.10-16.57.29:381][768]Log file closed, 03/10/21 11:57:29
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
+=======
 >>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
 =======
 >>>>>>> parent of 1cd5888 (3rdLevel_Walls_95%)
